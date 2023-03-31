@@ -1,0 +1,19 @@
+'DNM-CEMA' Usage
+=================
+If you are new to DNM and if the data is not large, you only need to add 
+the approach of loading data into 'divideDataset.m', and type 'run Main.m';
+Moreover, adjusting the value of parameters can further improve 
+the performance of model to manage the data.
+
+-Max_Gen: set the number of generation (default 1500)
+-subpopsize: set the population size (default 50)
+-Fmin, Fmax: set the upper and lower bound of the scaling factor (default [0.4, 1.2])
+-CR: set the crossover probability (default 0.85)
+-c: set the coefficient of penalty term (default 0.8)
+-l: set the coefficient of regularity term (default 0.8)
+-p: set the probability of sampling archive (default 0.5)
+-M: set the number of dendritic layers (default 8)
+
+------------------------------- Reference --------------------------------
+In submission
+--------------------------------------------------------------------------
